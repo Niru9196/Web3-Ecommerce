@@ -12,7 +12,7 @@ import Footer from '../components/Footer';
 const Home = () => {
   return (
     <div className="">
-      {/* <Navbar />  */}
+      <Navbar /> 
       {/* <Herobg/>  */}
       <PopularCollection details={PopularData} />
       <ProductsContainer />

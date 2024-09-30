@@ -16,7 +16,7 @@ const PopularCollection2 = () => {
         </button>
 
         {/* Cards container */}
-        <div className="flex w-full justify-evenly gap-6 flex-wrap">
+        <div className="flex md:w-[95%] justify-evenly gap-6 flex-wrap">
           {products.map((product) => (
             <div
               key={product.id}
