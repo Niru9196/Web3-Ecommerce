@@ -58,7 +58,7 @@ const ProductsContainer = () => {
 
   return (
     <div className="bg-[#F3F3F3]">
-      <div className="relative flex justify-between bg-[#F3F3F3] max-w-[1400px] mx-auto max-md:flex-col">
+      <div className="relative flex justify-between bg-[#F3F3F3] lg:max-w-[1400px] mx-auto max-lg:flex-col">
           <ProductList title="Trending" products={trendingProducts} />
           <ProductList title="All Product" products={allProducts} />
       </div>

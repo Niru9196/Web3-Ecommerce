@@ -9,9 +9,9 @@ const PopularCollection = ({ details }) => {
     navigate(`/boredApe`);
   }; 
   return (
-    <div className=" bg-black flex flex-col py-20 gap-5 max-md:justify-center max-md:w-full">
+    <div className=" bg-black flex flex-col py-20 gap-5 max-md:justify-center max-md:w-full md:mt-[630px] mt-[400px]">
           <h2 className="text-white text-4xl text-left lg:w-[85vw] w-[75vw] mx-auto max-md:text-center">Popular Collection</h2>
-            <div className="flex flex-wrap justify-between items-center w-[90vw] mx-auto max-md:justify-center">
+            <div className="flex flex-wrap justify-between items-center w-[93vw] mx-auto max-md:justify-center">
                 <button className="text-[#fff] w-9 h-9 text-3xl hidden md:block md:mr-3 xl:mr-0">
                     <FaCircleArrowLeft/>
                 </button>

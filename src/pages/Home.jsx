@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <div className="">
       <Navbar /> 
-      {/* <Herobg/>  */}
+      <Herobg/>
       <PopularCollection details={PopularData} />
       <ProductsContainer />
       <PopularCollection2 /> 
